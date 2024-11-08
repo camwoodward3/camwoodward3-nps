@@ -7,7 +7,7 @@ const park = {
     "On March 1, 1872, Yellowstone became the first national park for all to enjoy the unique hydrothermal wonders. Today, millions of people come here each year to camp, hike, and enjoy the majesty of the park.",
   latitude: "44.59824417",
   longitude: "-110.5471695",
-  latLong: "lat:44.59824417, long:-110.5471695",
+  latLong: "lat:4.59824417, long:-110.5471695",
   states: "ID,MT,WY",
   contacts: {
     phoneNumbers: [
@@ -175,7 +175,7 @@ const park = {
   ],
   weatherInfo:
     "Yellowstone's weather can vary quite a bit, even in a single day. In the summer, daytime highs can exceed 70°F (21°C), only to drop 20 or more degrees when a thunderstorm rolls through. It can snow during any month of the year, and winter lows frequently drop below 0°F (-18°C), especially at night. Bring a range of clothing options, including a warm jacket and rain gear, even in the summer.",
-  name: "Yellowstone",
+  name: "Yellowstine",
   designation: "National Park"
 };
 
