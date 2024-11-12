@@ -175,10 +175,37 @@ const park = {
   ],
   weatherInfo:
     "Yellowstone's weather can vary quite a bit, even in a single day. In the summer, daytime highs can exceed 70°F (21°C), only to drop 20 or more degrees when a thunderstorm rolls through. It can snow during any month of the year, and winter lows frequently drop below 0°F (-18°C), especially at night. Bring a range of clothing options, including a warm jacket and rain gear, even in the summer.",
-  name: "Yellowstine",
+  name: "Yellowstone",
   designation: "National Park"
 };
 
 export function getParkData() {
   return park;
+}
+
+
+const parkInfoLinks = [
+  {
+    name: "Current Conditions &#x203A;",
+    link: "conditions.html",
+    image: park.images[2].url,
+    description:
+      "See what conditions to except in the park before leaving on your trip!"
+  },
+  {
+    name: "Fees and Passes &#x203A;", 
+    link: "fees.html",
+    image: park.images[3].url,
+    description: "Learn about the fees and passes that are available."
+  },
+  {
+    name: "Visitor Centers &#x203A;",
+    link: "vistor_centers.html",
+    image: park.images[9].url,
+    description: "Learn about the visitor centers in the park."
+  }
+];
+
+export function getParkLink() {
+  return parkInfoLinks
 }
