@@ -35,6 +35,11 @@ export async function getParkData() {
   return parkData.data[0];
 }
 
+export async function getAlerts() {
+  const alerts = await getJson("alerts?parkCode=yell");
+  return alerts.alerts[0];
+}
+
 const park = {
   id: "F58C6D24-8D10-4573-9826-65D42B8B83AD",
   url: "https://www.nps.gov/yell/index.htm",
