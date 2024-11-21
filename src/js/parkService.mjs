@@ -35,10 +35,11 @@ export async function getParkData() {
   return parkData.data[0];
 }
 
-export async function getAlerts() {
+export async function getParkAlerts() {
   const alerts = await getJson("alerts?parkCode=yell");
-  return alerts.alerts[0];
+  return alerts.data;
 }
+
 
 const park = {
   id: "F58C6D24-8D10-4573-9826-65D42B8B83AD",
@@ -256,3 +257,4 @@ export function getInfoLinks(data) {
 export function getParkLink() {
   return parkInfoLinks
 }
+
