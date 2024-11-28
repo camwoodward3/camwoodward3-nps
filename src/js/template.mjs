@@ -58,3 +58,16 @@ export function alertTemplate(alert) {
         <p>${alert.description}</p>
     </div></li>`;
 }   
+
+export function visitorCenterTemplate(center) {
+    return `<li class="centers">
+    <h4>${center.name}</h4>
+    <p>${center.description}</p>
+    <p>${center.directionsInfo}</p>
+    </li>`
+}
+
+export function setActivitiesTemplate(activities) {
+    return `
+    <li class="activity">${activities.name}</li>`
+}

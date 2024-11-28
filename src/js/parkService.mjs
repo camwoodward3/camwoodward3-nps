@@ -40,6 +40,16 @@ export async function getParkAlerts() {
   return alerts.data;
 }
 
+export async function getParkVisitorCenters() {
+   const centers = await getJson("visitorcenters?parkCode=yell");
+   return centers.data;
+}
+
+export async function getActivitiesData() {
+  const activities = await getJson("activities/parks?q=yell");
+  return activities.data;
+}
+
 
 const park = {
   id: "F58C6D24-8D10-4573-9826-65D42B8B83AD",
