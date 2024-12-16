@@ -15,9 +15,9 @@ function setVisitorCenters(centers) {
     console.log(centersContainer);
 }
 function setActivities(activities) {
-    const activitiesContainer = document.querySelector(".activities > ul")
+    const activitiesContainer = document.querySelector(".activities ul")
     const activitiesHTML = activities.map(setActivitiesTemplate);
-    activitiesContainer.innerHTML = activitiesHTML;
+    activitiesContainer.innerHTML = activitiesHTML.join("");
     console.log(activitiesContainer);
 }
 async function init() {

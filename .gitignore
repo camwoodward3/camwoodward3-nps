@@ -2,3 +2,4 @@
 /pnpm-lock.yaml
 .env
 .DS_Store
+.dist
